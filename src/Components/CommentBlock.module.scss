@@ -1,0 +1,20 @@
+.comment-block {
+  h3 {
+    padding: 0;
+    margin: 0.25rem 0 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e0e8ea;
+  }
+
+  p {
+    padding: 0;
+    margin: 0.25rem 1rem 0 0;
+    font-size: 0.75rem;
+    color: #e0e8ea;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

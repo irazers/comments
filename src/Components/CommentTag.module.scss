@@ -1,0 +1,19 @@
+.tag {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem 1.25rem 1.25rem 0.25rem;
+  background-color: #282c34;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+  position: absolute;
+
+  &:hover {
+    cursor: pointer;
+    width: 15rem;
+    height: 3rem;
+  }
+
+  .comment {
+    padding-left: 3rem;
+  }
+}

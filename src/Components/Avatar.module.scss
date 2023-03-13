@@ -1,0 +1,14 @@
+.circle {
+  background: transparent;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+
+  .image-circle {
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+}
