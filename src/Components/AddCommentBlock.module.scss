@@ -2,6 +2,7 @@
   position: absolute;
   display: flex;
   gap: 0.5rem;
+  transition: left 0.2s ease-in-out, top 0.2s ease-in-out;
 
   .blue-circle {
     border-radius: 50%;

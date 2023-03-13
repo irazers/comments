@@ -14,7 +14,8 @@ export default class Avatar extends Component {
         <img
           className={classes['image-circle']}
           src={ this.getGravatarImage(this.props.email, this.props.radius) }
-          alt={ this.props.email }/>
+          alt={ this.props.email }
+        />
       </div>
     )
   }
